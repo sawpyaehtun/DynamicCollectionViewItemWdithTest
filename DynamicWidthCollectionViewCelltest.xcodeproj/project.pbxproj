@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D06345422554F76100FF70E5 /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06345402554F76100FF70E5 /* TitleCollectionViewCell.swift */; };
+		D06345432554F76100FF70E5 /* TitleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D06345412554F76100FF70E5 /* TitleCollectionViewCell.xib */; };
+		D06345482554FCA700FF70E5 /* TokenCollViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06345472554FCA700FF70E5 /* TokenCollViewFlowLayout.swift */; };
+		D063454D2554FCE200FF70E5 /* DynmicHeightCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D063454C2554FCE200FF70E5 /* DynmicHeightCollectionView.swift */; };
 		D0EE17362553EF7D006E526C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EE17352553EF7D006E526C /* AppDelegate.swift */; };
 		D0EE17382553EF7D006E526C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EE17372553EF7D006E526C /* SceneDelegate.swift */; };
 		D0EE173A2553EF7D006E526C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EE17392553EF7D006E526C /* ViewController.swift */; };
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D06345402554F76100FF70E5 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		D06345412554F76100FF70E5 /* TitleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleCollectionViewCell.xib; sourceTree = "<group>"; };
+		D06345472554FCA700FF70E5 /* TokenCollViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenCollViewFlowLayout.swift; sourceTree = "<group>"; };
+		D063454C2554FCE200FF70E5 /* DynmicHeightCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynmicHeightCollectionView.swift; sourceTree = "<group>"; };
 		D0EE17322553EF7D006E526C /* DynamicWidthCollectionViewCelltest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicWidthCollectionViewCelltest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0EE17352553EF7D006E526C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0EE17372553EF7D006E526C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +114,10 @@
 				D0EE173E2553EF7E006E526C /* Assets.xcassets */,
 				D0EE17402553EF7E006E526C /* LaunchScreen.storyboard */,
 				D0EE17432553EF7E006E526C /* Info.plist */,
+				D06345402554F76100FF70E5 /* TitleCollectionViewCell.swift */,
+				D06345412554F76100FF70E5 /* TitleCollectionViewCell.xib */,
+				D06345472554FCA700FF70E5 /* TokenCollViewFlowLayout.swift */,
+				D063454C2554FCE200FF70E5 /* DynmicHeightCollectionView.swift */,
 			);
 			path = DynamicWidthCollectionViewCelltest;
 			sourceTree = "<group>";
@@ -232,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0EE17422553EF7E006E526C /* LaunchScreen.storyboard in Resources */,
+				D06345432554F76100FF70E5 /* TitleCollectionViewCell.xib in Resources */,
 				D0EE173F2553EF7E006E526C /* Assets.xcassets in Resources */,
 				D0EE173D2553EF7D006E526C /* Main.storyboard in Resources */,
 			);
@@ -258,7 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D063454D2554FCE200FF70E5 /* DynmicHeightCollectionView.swift in Sources */,
 				D0EE173A2553EF7D006E526C /* ViewController.swift in Sources */,
+				D06345422554F76100FF70E5 /* TitleCollectionViewCell.swift in Sources */,
+				D06345482554FCA700FF70E5 /* TokenCollViewFlowLayout.swift in Sources */,
 				D0EE17362553EF7D006E526C /* AppDelegate.swift in Sources */,
 				D0EE17382553EF7D006E526C /* SceneDelegate.swift in Sources */,
 			);
